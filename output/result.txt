@@ -1,9 +1,9 @@
-Total words in IF.txt without the contractions: 287
+Results without contractions:Total words in IF.txt without the contractions: 287
 Total words in AlwaysRememberUsThisWay.txt without the contractions: 223
 Grand total of words without the contractions: 510
 Top 3 words in IF.txt without the contractions: [('you', 18), ('and', 16), ('if', 14)]
 Top 3 words in AlwaysRememberUsThisWay.txt without the contractions: [('the', 13), ('and', 8), ('i', 8)]
-
+Results with contractions:
 Total words in IF.txt with contractions: 293
 Total words in AlwaysRememberUsThisWay.txt with contractions: 242
 Grand total of words with contractions: 535
