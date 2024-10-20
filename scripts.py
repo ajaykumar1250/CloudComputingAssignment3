@@ -86,12 +86,14 @@ ip_address = get_ip()
 
 # Write results to /home/data/output/result.txt
 with open('/home/data/output/result.txt', 'w') as result_file:
+    result_file.write(f"Results without contractions:")
     result_file.write(f"Total words in IF.txt without the contractions: {total_words_if}\n")
     result_file.write(f"Total words in AlwaysRememberUsThisWay.txt without the contractions: {total_words_always}\n")
     result_file.write(f"Grand total of words without the contractions: {grand_total}\n")
     result_file.write(f"Top 3 words in IF.txt without the contractions: {top_if}\n")
     result_file.write(f"Top 3 words in AlwaysRememberUsThisWay.txt without the contractions: {top_always}\n")
     
+    result_file.write(f"Results with contractions:")
     result_file.write(f"\nTotal words in IF.txt with contractions: {total_words_if_with_contractions}\n")
     result_file.write(f"Total words in AlwaysRememberUsThisWay.txt with contractions: {total_words_always_with_contractions}\n")
     result_file.write(f"Grand total of words with contractions: {grand_total_with_contractions}\n")
